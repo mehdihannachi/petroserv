@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Basic Page Needs
+	================================================== -->
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Petroserv - About us</title>
+
+
+	<!-- ==============================================
+	Favicons
+	=============================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+
+	<!-- ==============================================
+	CSS VENDOR
+	=============================================== -->
+	<link rel="stylesheet" type="text/css" href="/css/vendor/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="/css/vendor/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/vendor/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/vendor/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/vendor/magnific-popup.css">
+	<link rel="stylesheet" href="/css/sliding-carousel.css" />
+
+
+	<!-- ==============================================
+	Custom Stylesheet
+	=============================================== -->
+	<link rel="stylesheet" type="text/css" href="/css/style.css" />
+
+	<script type="text/javascript" src="/js/vendor/modernizr.min.js"></script>
+
+	<style type="text/css">
+		.read-more-state {
+			display: none;
+		}
+
+		.read-more-target {
+			opacity: 0;
+			max-height: 0;
+			font-size: 0;
+			transition: .25s ease;
+		}
+
+		.read-more-state:checked ~ .read-more-wrap .read-more-target {
+			opacity: 1;
+			font-size: inherit;
+			max-height: 999em;
+		}
+
+		.read-more-state ~ .read-more-trigger:before {
+			content: 'Show more ...';
+			color:white;
+		}
+
+
+		.read-more-state:checked ~ .read-more-trigger:before {
+			content: 'Show less ';
+			color:red;
+		}
+
+		.read-more-trigger {
+			cursor: pointer;
+
+		}
+
+		
+
+	</style>
+
+</head>
+
+<body>
+
+	<!-- Load page -->
+	<div class="animationload">
+
+		<div class="spinner">
+			<img id="logo-spinner" src="images/logo-load.png"></img>
+		</div>
+	</div>
+
+	<!-- BACK TO TOP SECTION -->
+	<a href="#top" class="cd-top cd-is-visible cd-fade-out">Top</a>
+
+	<div class="header">
+	  <!-- HEADER SECTION -->
+	  <%- include header.ejs %>
+
+	  <!-- NAVBAR SECTION -->
+	  <div id="#top" class="navbar navbar-main">
+
+		<div class="container container-nav">
+			<div class="rowe">
+
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+
+				<a class="navbar-brand" href="/">
+					<img style="  " src="images/Logo.png" alt="" />
+				</a>
+
+
+				<nav class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-left">
+						<li>
+							<a href="/">HOME</a>
+						</li>
+						<li class="dropdown active">
+
+							<a href="#">ABOUT US</a>
+
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SERVICES <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="/oil-and-gas-business-unit">Oil & Gas Business Unit </a></li>
+								<li><a href="/building-and-civil-infrastructure-business-unit"> Building & Civil Infrastructure Business Unit</a></li>
+								<li><a href="/MEP-facility-management-business-unit">MEP & Facility Management Business Unit </a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="/environment">ENVIRONMENT </a>
+						</li>
+						<li>
+							<a href="/clients">CLIENTS </a>
+						</li>
+						<li>
+							<a href="/projects-gallery">PROJECTS GALLERY</a>
+						</li>
+						<li>
+							<a href="/careers">CAREERS</a>
+
+						</li>
+						<li>
+							<a href="/contact-us">CONTACT US</a>
+						</li>
+
+					</ul>
+
+
+
+				</nav>
+
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+<!-- BANNER -->
+<div class="section banner-page about">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-12">
+				<div class="title-page">About us</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ABOUT FEATURE -->
+<div class="section feature overlap">
+	<div class="container">
+		<div class="col-sm-12 col-md-12">
+
+			<div class="col-sm-6 col-md-6">
+
+				<div class="item">
+					<img src="images/aboutusheader.png" alt="About us">
+				</div>
+
+
+			</div>
+			<div class="col-sm-6 col-md-6">
+				<h4 class="section-heading">OUR COMPANY</h4>
+				<p>PETROSERV is an ISO 9001: 2015, ISO 14001: 2015 and OHSAS 18001: 2007 Certified Company that offers a diverse range of engineering and construction services in its three main areas of activity, namely Infrastructure, Oil and Gas and Building.</p>
+				<!--        <img src="images/petroservgroup.png" alt="About us" class="img-responsive">-->
+
+			</div>
+
+			<div class="col-sm-12 col-md-12" style="    margin-top: 30px;">
+
+				<p>PETROSERV, a wholly owned Qatari company, is one of the leading EPIC contractors in the State of Qatar. Existing since 1978, Petroserv has an enviable, proven track record with a large variety of Qatari and international clients; including: Ashghal
+					(Public Works Authority), Kahramaa (Qatar General Electricity and Water Corporation) , Qatar Petroleum (QP), Private Engineering Office (PEO), Qatar Steel, Qatar Gas, Qatar Armed Forces, Mannesmann Demag, Gencor Beverley, Siemens Vai Pomini, FCB
+					and CCIC, Hyundai and Iberdtola.
+				</p>
+				<h4>PETROSERV GROUP OPERATIONS</h4>
+				<div class="col-sm-6 col-md-4">
+					<!-- BOX 1 -->
+					<div class="feature-box-8 equalbox " id="element1">
+						<div class="media">
+							<img src="images/Infrastructure.png" alt="Infrastructure" class="img-responsive">
+						</div>
+						<div class="body">
+							<div class="icon-holder">
+								<span class="fa fa-cubes"></span>
+							</div>
+							<a href="/building-and-civil-infrastructure-business-unit" class="title">Building & Civil Infrastructure Business Unit</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<!-- BOX 1 -->
+					<div class="feature-box-8 equalbox" id="element1">
+						<div class="media">
+							<img src="images/oil-factory.png" alt="Oil and Gas" class="img-responsive">
+						</div>
+						<div class="body">
+							<div class="icon-holder">
+								<span class="fa fa-fire"></span>
+							</div>
+							<a href="/oil-and-gas-business-unit" class="title">Oil & Gas Business Unit</a>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<!-- BOX 1 -->
+					<div class="feature-box-8 equalbox" id="element1">
+						<div class="media">
+							<img src="images/Building.png" alt="Building" class="img-responsive">
+						</div>
+						<div class="body">
+							<div class="icon-holder">
+								<span class="fa fa-building"></span>
+							</div>
+							<a href="/MEP-facility-management-business-unit" class="title">MEP & Facility Management Business Unit</a>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="margin-bottom-50"></div>
+
+		<div class="col-sm-12 col-md-12">
+
+
+
+			<div class="col-sm-12 col-md-12">
+
+				<h4>PETROSERV LIMITED ALLIANCES</h4>
+				<p>
+					PETROSERV, to participate in Qatar’s Mega Projects, create strategic alliances with other contracting companies to prequalify, bid and deliver.
+				</p>
+				<p>
+					Currently Petroserv are also operating four strategic alliances with <a href="http://www.quantobelloqatar.net/" target="_blank">Quanto Bello</a> , <a href="http://www.qualityairglobal.com/" target="_blank">QAir Global</a> , <a href="http://www.botharboring.com.au/"
+					target="_blank">BotharQ</a>, <a href="http://www.roadbridge.ie/" target="_blank">Roadbridge</a> and <a href="http://www.tdgiworld.com/tdgiserv-no-qatar/" target="_blank">TDGI Serv</a>.
+				</p>
+			</div>
+
+			<div class="col-sm-12 col-md-12">
+				<div class="item">
+					<img src="images/petallian2.png" alt="About us" style="margin-top: 40px;margin-bottom: 40px;" class="img-responsive">
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-6" style="    margin-top: 30px;">
+
+					<h4>PETROSERV LIMITED SISTER COMPANIES</h4>
+					<div class="col-sm-6 col-md-6">
+					   <a href="http://www.hqatar.com/" target="_blank">
+						<p>HARINSA</p>
+						
+						<img src="/images/sister_companies/harinsa-logo.jpg" style="margin-bottom: 50px;"/>
+					</a>
+					</div>
+				
+				<div class="col-sm-6 col-md-6">
+					<a href="http://www.ecisa.es/" target="_blank">
+						<p>ECISA</p>
+						
+						<img src="/images/sister_companies/logo_Ecisa.jpg" style="margin-bottom: 50px;"/>
+					</a>
+				</div>
+
+			</div>
+		<div class="col-sm-12 col-md-12" style="    margin-top: 30px;" >
+
+
+			
+
+			<div class="col-sm-12 col-md-12">
+
+		<h4>GROUP ORGANIZATION CHART</h4>
+	
+		  
+
+			<img src="/images/Group-Organization-Chart.jpg" style="margin-top:30px;margin-bottom: 50px;"/>
+			
+		
+		
+	</div>
+
+
+
+		
+	</div>
+		
+
+	
+	<div class="clearfix"></div>
+	<div class="margin-bottom-40"></div>
+	<div class="section about ">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-sm-12 col-md-12">
+					<h2 class="section-heading">
+						OUR EXECUTIVES
+					</h2>
+				</div>
+				
+				<div class="row" >
+					<div class="col-sm-6 col-md-6">
+						<div class="box-team equalboxA" id="teamA1">
+							<div class="box-image">
+
+								<img  src="images/team-petroserv/wissam-chehab.png" style="height: 355px;"  alt="wissam-chehab">
+							</div>
+							<div class="body-content">
+								<div class="people">Wissam Chehab</div>
+								<div class="position">Business Unit Manager</div>
+								<div class="position">Building & Civil Infrastructure / MEP & Facility Management </div>
+								<input type="checkbox" class="read-more-state" id="post-3" />
+								<div class="read-more-wrap" style="margin-top: 14px; text-align: justify;" ><span class="read-more-target">An engineer by profession currently engaged as Division Manager for Building and Infrastructure at Petroserv Limited in Doha, Qatar.  Well versed in Construction Management, Project Management and Stockholder Management. 
+
+									Possesses a strong leadership which was gained from extensive experience from managing mid-range value projects to multibillion value projects in Gulf countries. Skillful in strategic close out of bleeding projects and focuses on profitable ventures. Has a keen perception on team and resources management that results in concentrated project progress and meet overall objectives and completion schedule on time at full satisfaction of the clients while protecting Stockholders interests.
+
+									Involved in prominent projects such as: Aprons, Taxiways, Service Roads, Buildings, Storm Drainage, Underground Utility Networks, Ground Service Equipment Tunnel, Special Systems, Fire Stations, Vault Rooms, Royal Family Buildings, Military Installations, etc.<br/></span></div>
+									<label for="post-3" class="read-more-trigger"></label>
+
+
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-6 col-md-6">
+							<div class="box-team equalboxA" id="teamA2">
+								<div class="box-image">
+
+									<img src="images/team-petroserv/tarek-malhas.jpg"   style="height: 355px;"  alt="tarek-malhas">
+								</div>
+								<div class="body-content">
+									<div class="people">Tarek Malhas</div>
+									<div class="position">Business Unit Manager</div>
+									<div class="position">Oil & Gas</div>
+									<input type="checkbox" class="read-more-state" id="post-1" />
+									<div class="read-more-wrap" style="margin-top: 14px; text-align: justify;" ><span class="read-more-target">Certified Project Management Professional (PMP) with two engineering degrees having 24 years experience in Project Management and Controls functions throughout 5 continents (Middle East, Europe, U.S.A, Australia and North Africa).
+
+										Managing, coordinating, and administering of oil and gas projects from conceptual stages through planning, engineering, procurement, construction, monitoring and controlling, start-up and contract closeout.<br/></span></div>
+										<label for="post-1" class="read-more-trigger"></label>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+
+							<div class="col-sm-6 col-md-6">
+								<div class="box-team equalboxB" id="teamB1">
+									<div class="box-image">
+
+										<img  src="images/team-petroserv/yunus-karodia.png" alt="yunus-karodia">
+									</div>
+									<div class="body-content">
+										<div class="people">Yunus Karodia</div>
+										<div class="position">Chief Financial Officer</div>
+
+										<input type="checkbox" class="read-more-state" id="post-4" />
+										<div class="read-more-wrap" style="margin-top: 14px; text-align: justify;"><span class="read-more-target">Yunus joined Petroserv in 2015 and appointed as CFO in 2017. He is an executive director at ECISA Cía. General de Construcciones. Yunus is a Chartered Accountant having completed his articles with PwC in South Africa. He is also a CFA Charterholder and completed the AMP at Harvard Business School. He spent a number of years in the Middle East before transferring back to South Africa and held various senior positions with a listed company having gained valuable experience in corporate finance, construction, private-public partnerships (PPP) and mining. Yunus previously held directorship and trustee positons on a number of concession company boards and investments trusts respectively. He was also involved in a number of volunteer activities through CFA Society South Africa where he previously held the position of vice-president.<br/></span></div>
+										<label for="post-4" class="read-more-trigger"></label>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-6">
+								<div class="box-team equalboxB" id="teamB2">
+									<div class="box-image">
+
+										<img src="images/team-petroserv/shawkat-abbas.png" alt="shawkat-abbas">
+									</div>
+									<div class="body-content">
+										<div class="people">Shawkat Abbas</div>
+										<div class="position">Business Unit Manager</div>
+										<div class="position">Tendering, Commercial & Contracts </div>
+										<input type="checkbox" class="read-more-state" id="post-2" />
+										<div class="read-more-wrap" style="margin-top: 14px; text-align: justify;"><span class="read-more-target">Shawkat’s project experience includes preparation and assessment of claims, contract administration, contract review, cost modeling and estimation, cost planning, procurement, tender and contract preparation, cost management, project management and fund monitoring. 
+
+											Shawkat’s academic qualifications include a Bachelors in Civil Engineering, MSc in Construction Law and Arbitration and an MSc in Project Management accompanied with professional qualifications such as being a Fellow Member of the Royal Institution of Chartered Surveyors (FRICS) and a Fellow Member of the Chartered Institute of Arbitrators (FCIArb).<br/></span></div>
+											<label for="post-2" class="read-more-trigger"></label>
+
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							
+							<div class="clearfix"></div>
+							<div class="margin-bottom-50"></div>
+
+							<div class="col-sm-12 col-md-12">
+								<h2 class="section-heading">
+									OUR HISTORY
+								</h2>
+								<div class="history-2">
+									<div class="timeline__item">
+										<div class="aksen"></div>
+										<div class="text">
+											<div class="year">1978</div>
+
+											<p>Petroserv is a wholly Qatari owned multi-disciplinary construction and engineering company that was established on 1st January 1978 by Sheikh Jassim Bin Mohamed Bin Jassim Al Thani. The Company started out life specializing in metals recycling.
+												The then name for the Company was PETROSERV for Maintenance and General Services.
+											</p>
+										</div>
+									</div>
+									<div class="timeline__item">
+										<div class="aksen"></div>
+										<div class="text">
+											<div class="year">1990</div>
+
+											<p>Over the intervening years, like with the majority of similar companies at the time, Petroserv ventured into a number of differing business lines as it sought to exploit potential opportunities that developed in Qatar. In 1990 the management of
+												Petroserv saw opportunities developing in the petroleum industry and decided to establish an Engineering Division within the company. This division very quickly became the cornerstone of the business.</p>
+											</div>
+										</div>
+										<div class="timeline__item">
+											<div class="aksen"></div>
+											<div class="text">
+												<div class="year">2003</div>
+
+												<p>In 2003 it was decided to develop a Infrastructure Division within Petroserv. This was primarily due to the business opportunities that were surfacing in Qatar as the Qatari Government sought to develop its infrastructure. In addition, there are
+													significant synergistic benefits between projects in this sector and that of the mechanical and engineering sector.</p>
+													<p>More recently, with the increasing levels of competition being experienced in Qatar and as the Qatar markets mature, it was decided that Petroserv develop to meet Qatar's construction demands. As a result it was decided that Petroserv is a multi
+														disciplinary construction and engineering company with its Operational Divisions focusing on Infrastructure, Oil & Gas and Building developments. Accordingly, it either divested from or transferred out of all the non-core activities.</p>
+													</div>
+												</div>
+
+											</div>
+										</div>
+										<div class="clearfix"></div>
+										<div class="margin-bottom-50"></div>
+										<div class="col-sm-12 col-md-12">
+											<h2 class="section-heading">
+												VISION AND VALUES
+											</h2>
+											<p>To create sustainable value for all stakeholders by being the leading Qatari based multi disciplinary construction and engineering company through focused business divisions acting in synergy.</p>
+											<div class="margin-bottom-50"></div>
+
+											<div class="career-tabs" data-example-id="togglable-tabs">
+												<ul id="myTabs" class="nav nav-tabs" role="tablist">
+													<li class="active"><a href="#SAFETY" aria-controls="SAFETY" role="tab" data-toggle="tab" aria-expanded="true">SAFETY</a></li>
+													<li class=""><a href="#INTEGRITY" aria-controls="tab2" role="tab" data-toggle="tab" aria-expanded="false">INTEGRITY</a></li>
+													<li class=""><a href="#QUALITY" aria-controls="QUALITY" role="tab" data-toggle="tab" aria-expanded="false">QUALITY</a></li>
+													<li class=""><a href="#TEAMWORK" aria-controls="TEAMWORK" role="tab" data-toggle="tab" aria-expanded="false">TEAMWORK</a></li>
+													<li class=""><a href="#INNOVATION" aria-controls="INNOVATION" role="tab" data-toggle="tab" aria-expanded="false">INNOVATION</a></li>
+												</ul>
+												<div id="myTabContent" class="tab-content">
+													<div role="tabpanel" class="tab-pane fade active in" id="SAFETY">
+														<div class="row">
+															<div class="col-sm-12 col-md-12">
+																<div class="body-tab">
+																	<div class="margin-bottom-30"></div>
+																	<p>Recognising and internalising that safety is of paramount importance to all ensuring that it becomes a way of life in conducting business.
+																	</p>
+																	<div class="margin-bottom-30"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div role="tabpanel" class="tab-pane fade" id="INTEGRITY">
+														<div class="row">
+															<div class="col-sm-12 col-md-12">
+																<div class="body-tab">
+																	<div class="margin-bottom-30"></div>
+																	<p>Making promises that we can keep always being honest, ethical and respectful promoting solution driven actions. Uncompromising PETROSERV standards. Taking ownership and being accountable.</p>
+																	<div class="margin-bottom-30"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div role="tabpanel" class="tab-pane fade" id="QUALITY">
+														<div class="row">
+															<div class="col-sm-12 col-md-12">
+																<div class="body-tab">
+																	<div class="margin-bottom-30"></div>
+																	<p>Everyone is responsible for delivering and adding value. Service excellence is a given. We are uncompromising on standards and dissatisfied with the status quo. We must raise standards and be professional</p>
+																	<div class="margin-bottom-30"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div role="tabpanel" class="tab-pane fade" id="TEAMWORK">
+														<div class="row">
+															<div class="col-sm-12 col-md-12">
+																<div class="body-tab">
+																	<div class="margin-bottom-30"></div>
+																	<p>Working together to achieve our goals, doing what it takes for our team to succeed, never compromising the greater team. Always creating positive energy and striving for high performance team status.</p>
+																	<div class="margin-bottom-30"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div role="tabpanel" class="tab-pane fade" id="INNOVATION">
+														<div class="row">
+															<div class="col-sm-12 col-md-12">
+																<div class="body-tab">
+																	<div class="margin-bottom-30"></div>
+																	<p>Believe that we all have good ideas encourage and harness them, the responsibility to access and share great ideas lies with us all. Be passionate for improvement and embrace creativity, growth, vitality and momentum.</p>
+																	<div class="margin-bottom-30"></div>
+																</div>
+															</div>
+														</div>
+													</div>
+
+												</div>
+											</div>
+										</div>
+										<div class="clearfix"></div>
+										<div class="margin-bottom-50"></div>
+										<div class="col-sm-12 col-md-12">
+											<h2 class="section-heading">
+												CERTIFICATIONS
+											</h2>
+											<div id="carousel" class="col-sm-12 col-md-12">
+											   <div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/safety_excellence_award.png" /> </a>
+													<span>2015 CONTRACTOR SAFETY EXCELLENCE AWARD</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/ASME - PP.png" /> </a>
+													<span>ASME - PP</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/ASME - S.png" /> </a>
+													<span>ASME - S</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/ASME -U.png" /> </a>
+													<span>ASME -U</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/British Safety Council Membership Certificate.png" /> </a>
+													<span>British Safety Council Membership Certificate</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/EMS Certificate.png" /> </a>
+													<span>EMS Certificate</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/National Board - NB.png" /> </a>
+													<span>National Board - NB</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/National Board - R.png" /> </a>
+													<span>National Board - R</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/OHSMS Certificate.png" /> </a>
+													<span>OHSMS Certificate</span>
+												</p>
+											</div>
+											<div class="slide">
+												<p>
+													<a> <img alt="Image Caption" src="images/certificates-sm/QMS Certificate.png" /> </a>
+													<span>QMS Certificate</span>
+												</p>
+											</div>
+
+											<div class="navigate-left"><i class="fa fa-caret-left" aria-hidden="true"></i></div>
+											<div class="navigate-right"><i class="fa fa-caret-right" aria-hidden="true"></i></div>
+
+
+										</div>
+
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- FOOTER SECTION -->
+				<%- include footer.ejs %>
+
+				<!-- JS VENDOR -->
+				<script type="text/javascript" src="/js/vendor/jquery.min.js"></script>
+				<script type="text/javascript" src="/js/vendor/bootstrap.min.js"></script>
+				<script type="text/javascript" src="/js/vendor/jquery.superslides.js"></script>
+				<script type="text/javascript" src="/js/vendor/owl.carousel.js"></script>
+				<script type="text/javascript" src="/js/vendor/bootstrap-hover-dropdown.min.js"></script>
+				<script type="text/javascript" src="/js/vendor/jquery.magnific-popup.min.js"></script>
+				<script type="text/javascript" src="/js/vendor/easings.js"></script>
+				<script type="text/javascript" src="/js/vendor/isotope.pkgd.min.js"></script>
+
+				<!-- sendmail -->
+				<script type="text/javascript" src="/js/vendor/validator.min.js"></script>
+				<script type="text/javascript" src="/js/vendor/form-scripts.js"></script>
+
+
+				<script type="text/javascript">
+					$(document).ready(function() {
+					  
+						
+						var highestCol = Math.max($('#element1').height(), $('#element2').height(), $('#element3').height());
+						$('.equalbox').height(highestCol); 
+									// var highestCol2 = Math.max($('#teamA1').height(), $('#teamA2').height());
+									// $('.equalboxA').height(highestCol2); 
+									//   var highestCol3 = Math.max($('#teamB1').height(), $('#teamB2').height());
+									
+									// $('.equalboxB').height(highestCol3);
+								});
+					
+							</script>
+
+							<script type="text/javascript" src="/js/script.js"></script>
+							<!--    <script src="/js/csi.min.js" type="text/javascript"></script> -->
+							<script src="/js/jquery-slidingCarousel.js" type="text/javascript"></script>
+
+							<script type="text/javascript">
+								$(document).ready(function() {
+									var carousel = $("#carousel").slidingCarousel({
+										squeeze: 100
+									});
+								});
+								
+							</script>
+
+
+
+						</body>
+						</html>
